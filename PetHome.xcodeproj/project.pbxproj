@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		5AE8B1352B264587007FE3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1342B264587007FE3AE /* AppDelegate.swift */; };
 		5AE8B1372B264587007FE3AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1362B264587007FE3AE /* SceneDelegate.swift */; };
-		5AE8B1392B264587007FE3AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1382B264587007FE3AE /* ViewController.swift */; };
-		5AE8B13C2B264587007FE3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8B13A2B264587007FE3AE /* Main.storyboard */; };
+		5AE8B1392B264587007FE3AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1382B264587007FE3AE /* HomeViewController.swift */; };
 		5AE8B13E2B264588007FE3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8B13D2B264588007FE3AE /* Assets.xcassets */; };
-		5AE8B1412B264588007FE3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8B13F2B264588007FE3AE /* LaunchScreen.storyboard */; };
+		5AE8B14E2B264FCC007FE3AE /* AnimalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B14D2B264FCC007FE3AE /* AnimalDetails.swift */; };
+		5AE8B1502B264FE1007FE3AE /* AnimalsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B14F2B264FE1007FE3AE /* AnimalsList.swift */; };
+		5AE8B1522B264FFB007FE3AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1512B264FFB007FE3AE /* HomeView.swift */; };
+		5AE8B1542B265023007FE3AE /* AnimalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1532B265023007FE3AE /* AnimalViewCell.swift */; };
+		5AE8B1562B26507A007FE3AE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8B1552B26507A007FE3AE /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AE8B1312B264587007FE3AE /* PetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE8B1342B264587007FE3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE8B1362B264587007FE3AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AE8B1382B264587007FE3AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AE8B13B2B264587007FE3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE8B1382B264587007FE3AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5AE8B13D2B264588007FE3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AE8B1402B264588007FE3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE8B1422B264588007FE3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE8B14D2B264FCC007FE3AE /* AnimalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetails.swift; sourceTree = "<group>"; };
+		5AE8B14F2B264FE1007FE3AE /* AnimalsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsList.swift; sourceTree = "<group>"; };
+		5AE8B1512B264FFB007FE3AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5AE8B1532B265023007FE3AE /* AnimalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewCell.swift; sourceTree = "<group>"; };
+		5AE8B1552B26507A007FE3AE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,58 @@
 		5AE8B1332B264587007FE3AE /* PetHome */ = {
 			isa = PBXGroup;
 			children = (
-				5AE8B1342B264587007FE3AE /* AppDelegate.swift */,
-				5AE8B1362B264587007FE3AE /* SceneDelegate.swift */,
-				5AE8B1382B264587007FE3AE /* ViewController.swift */,
-				5AE8B13A2B264587007FE3AE /* Main.storyboard */,
-				5AE8B13D2B264588007FE3AE /* Assets.xcassets */,
-				5AE8B13F2B264588007FE3AE /* LaunchScreen.storyboard */,
+				5AE8B14C2B264F6D007FE3AE /* Components */,
+				5AE8B14B2B264F66007FE3AE /* View */,
+				5AE8B14A2B264F5B007FE3AE /* Model */,
+				5AE8B1492B264F53007FE3AE /* Controller */,
+				5AE8B1482B264F3E007FE3AE /* Service */,
 				5AE8B1422B264588007FE3AE /* Info.plist */,
 			);
 			path = PetHome;
+			sourceTree = "<group>";
+		};
+		5AE8B1482B264F3E007FE3AE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8B1552B26507A007FE3AE /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5AE8B1492B264F53007FE3AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8B1382B264587007FE3AE /* HomeViewController.swift */,
+				5AE8B1342B264587007FE3AE /* AppDelegate.swift */,
+				5AE8B1362B264587007FE3AE /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AE8B14A2B264F5B007FE3AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8B13D2B264588007FE3AE /* Assets.xcassets */,
+				5AE8B14D2B264FCC007FE3AE /* AnimalDetails.swift */,
+				5AE8B14F2B264FE1007FE3AE /* AnimalsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AE8B14B2B264F66007FE3AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8B1512B264FFB007FE3AE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE8B14C2B264F6D007FE3AE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8B1532B265023007FE3AE /* AnimalViewCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE8B1412B264588007FE3AE /* LaunchScreen.storyboard in Resources */,
 				5AE8B13E2B264588007FE3AE /* Assets.xcassets in Resources */,
-				5AE8B13C2B264587007FE3AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE8B1392B264587007FE3AE /* ViewController.swift in Sources */,
+				5AE8B1392B264587007FE3AE /* HomeViewController.swift in Sources */,
+				5AE8B1562B26507A007FE3AE /* Service.swift in Sources */,
+				5AE8B1502B264FE1007FE3AE /* AnimalsList.swift in Sources */,
 				5AE8B1352B264587007FE3AE /* AppDelegate.swift in Sources */,
+				5AE8B1542B265023007FE3AE /* AnimalViewCell.swift in Sources */,
+				5AE8B1522B264FFB007FE3AE /* HomeView.swift in Sources */,
+				5AE8B14E2B264FCC007FE3AE /* AnimalDetails.swift in Sources */,
 				5AE8B1372B264587007FE3AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5AE8B13A2B264587007FE3AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE8B13B2B264587007FE3AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5AE8B13F2B264588007FE3AE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE8B1402B264588007FE3AE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5AE8B1432B264588007FE3AE /* Debug */ = {
@@ -296,7 +329,7 @@
 				INFOPLIST_FILE = PetHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +356,7 @@
 				INFOPLIST_FILE = PetHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
